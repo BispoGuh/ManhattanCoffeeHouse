@@ -1,0 +1,584 @@
+/* ESTILO GERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {	
+	height: 100vh;
+}
+
+span {
+    color: #c4a47c;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header.center {
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    background-color: #604829;
+    border-bottom: solid 2px black;
+    padding: 2px 4%;
+}
+
+.logotipo img {
+    height: 70px;
+	width: 70px;
+}
+
+.center .menu-desktop .menu {
+    display: flex;
+    gap: 30px;
+}
+
+.center .menu-desktop .menu a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #c4a47c;
+    text-shadow: 3px 5px 2px #000000;
+    font-weight: 700;
+}
+
+/* ESTILO DO BANNER */
+
+section.banner {
+    padding: 260px 4%;
+    background-image: url(./assets/parallax-imagem1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner .titulo-banner {
+    text-align: center;  
+}
+
+.banner .titulo-banner h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 66px;
+    color: #fff;
+}
+
+/* ESTILO INFORMAÇÕES */
+
+section.informacoes {
+    text-align: center;
+    width: 100%;
+}
+
+.informacoes .primeiro-container-informacoes {
+    padding: 20px 0;
+}
+
+.primeiro-container-titulo-informacoes {
+    padding: 20px 0;
+}
+
+.primeiro-container-titulo-informacoes h2 {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.primeiro-container-txt-informaçoes {
+    padding: 10px 0;
+    width: 50%;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.primeiro-container-txt-informaçoes p {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.primeiro-container-subtitulo-informacoes {
+    padding: 130px 0;
+    background-image: url(./assets/parallax-imagem2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.primeiro-container-subtitulo-informacoes h3 {
+    color: #fff;
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    width: 30%;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.informacoes .segundo-container-informacoes {
+    padding: 20px 0;
+}
+
+.segundo-container-titulo-informacoes {
+    padding: 20px 0;
+}
+
+.segundo-container-titulo-informacoes h2 {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.segundo-container-txt-informaçoes {
+    padding: 10px 0;
+    width: 50%;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.segundo-container-txt-informaçoes p {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.segundo-container-subtitulo-informacoes {
+    padding: 130px 0;
+    background-image: url(./assets/parallax-imagem3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.segundo-container-subtitulo-informacoes h3 {
+    color: #fff;
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    width: 30%;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.informacoes .terceiro-container-informacoes {
+    padding: 20px 0;
+}
+
+.terceiro-container-titulo-informacoes {
+    padding: 20px 0;
+}
+
+.terceiro-container-titulo-informacoes h2 {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.terceiro-container-txt-informaçoes {
+    padding: 10px 0;
+    width: 50%;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.terceiro-container-txt-informaçoes p {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* ESTILO CONTATOS */ 
+
+section.contatos {
+    padding: 40px 0;
+    background-image: url(./assets/parallax-imagem4.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulo-contatos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo-contatos h2 {
+    color: #fff;
+    background-color: #604829;
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.mapa-contatos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.txt-contatos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.txt-contatos p {
+    color: #fff;
+    background-color: #604829;
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+/* ESTILO HORÁRIOS */ 
+
+section.horarios {
+    padding: 80px 0;
+    background-image: url(./assets/cafeteria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulo-horarios {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.titulo-horarios h2 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.container-segunda {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-segunda h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-segunda span {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-terca {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-terca h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-terca p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-quarta {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-quarta h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-quarta p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-quinta {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-quinta h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-quinta p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-sexta {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-sexta h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-sexta p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-sabado {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-sabado h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-sabado p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-domingo {
+    border-bottom: solid 2px #fff;
+    padding: 20px 0;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+}
+
+.container-domingo h3 {
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.container-domingo p {
+    position: absolute;
+    right: -130px;
+    bottom: -10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+/* ESTILO HORÁRIOS */ 
+
+footer .rodape {
+	padding: 40px 4%;
+    background-color: #000000;
+    position: relative;
+}
+
+.direitos {
+    text-align: center;
+}
+
+.direitos p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}
+
+@media screen and (max-width: 1070px){
+    .center {
+        gap: 1px;
+    }
+
+    .center .menu-desktop .menu {
+        gap: 10px;
+    }
+
+    .center .menu-desktop .menu a {
+        font-size: 14px;
+    }
+
+    section.banner {
+        padding: 220px 4%;
+    }    
+
+    .banner .titulo-banner h1 {
+        font-size: 18px;
+    }
+
+    .primeiro-container-txt-informaçoes {
+        padding: 10px 10px;
+        height: 20%;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .primeiro-container-subtitulo-informacoes h3 {
+        width: 80%;
+    }
+
+    .segundo-container-txt-informaçoes {
+        padding: 10px 10px;
+        width: 80%;
+        height: 20%;
+        margin: 0 auto;
+    }
+
+    .segundo-container-subtitulo-informacoes h3 {
+        width: 80%;
+    }
+
+    .terceiro-container-txt-informaçoes {
+        padding: 10px 10px;
+        width: 80%;
+        margin: 0 auto;
+        height: 20%;
+    }
+
+    .titulo-contatos h2 {
+        width: 55%;
+    }
+
+    .mapa-contatos {
+        padding: 10px 0;
+    }
+
+    .mapa-contatos iframe {
+        height: 225px;
+		width: 300px;
+    }
+
+    .txt-contatos p {
+        width: 80%;
+    }
+
+    .container-segunda,
+    .container-terca,
+    .container-quarta,
+    .container-quinta,
+    .container-sexta,
+    .container-sabado,
+    .container-domingo {
+        width: 10%;
+        margin: 10px auto;
+    }
+
+    .container-segunda h3,
+    .container-terca h3,
+    .container-quarta h3,
+    .container-quinta h3,
+    .container-sexta h3,
+    .container-sabado h3,
+    .container-domingo h3 {
+        bottom: -20px;
+    }
+
+    .container-segunda p,
+    .container-terca p,
+    .container-quarta p,
+    .container-quinta p,
+    .container-sexta p,
+    .container-sabado p,
+    .container-domingo p {
+        bottom: -20px;
+    }
+
+    .direitos p {
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+    }
+
+    .btn {
+        position: absolute;
+        right: 20px;
+        top: -40px;
+    }
+}
